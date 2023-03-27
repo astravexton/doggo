@@ -1,0 +1,48 @@
+:root {
+    --primary: #4338ca;
+    --background: #0d1117;
+}
+
+body {
+    background-color: var(--background);
+    color: #c9d1d9;
+}
+
+.box {
+    border: 1px solid #30363d;
+    box-shadow: unset;
+}
+
+.help a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+input, select, button {
+    background-color: #010409;
+    border: 1px solid #30363d;
+    color: #ffffff;
+}
+
+button {
+    color: #c9d1d9;
+    background-color: #21262d;
+    box-shadow: 0 0 transparent, 0 0 transparent;
+}
+
+button:hover,
+button:focus {
+    background-color: #30363d;
+    border-color: #8b949e;
+    transition-duration: .1s;
+}
+
+table th {
+    background: #161b22;
+    border-bottom: unset;
+    color: #c9d1d9;
+}
